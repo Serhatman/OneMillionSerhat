@@ -1,0 +1,154 @@
+/* Vos customisations des classes de Bootstrap */
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+    
+    body{
+        background-color: red
+    }
+}
+
+@media (max-width: 991px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 767px) {
+    body{
+        background-color: green;
+    }
+}
+
+#home {
+
+    background-image: url(/Squelette/images/hero-image.jpg);
+}
+
+.redclass{
+    color: red;
+}
+
+.bordclass{
+    width: 150px;
+    height: 10px;
+    
+}
+
+.hrcolor{
+
+    border-color: red;
+}
+
+footer{
+    background-color: rgba(255, 17, 0, 0.705);
+    padding: 100px;
+}
+
+body{
+
+}
+
+#myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 10px; /* Increase font size */
+    }
+
+ .imgsize{
+     
+    width: 75px;
+    height: 50px;
+ }   
+    
+ nav 
+{
+    margin: 100px auto;
+    width: 50%;
+    height: 100px;
+    background: #48435C;
+}
+ 
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+nav .main_pages a 
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+ 
+nav a:hover 
+{
+    background: #5A5766
+}
+
+label
+{
+    display: none;
+}
+
+label, #toggle
+{
+    display: none;
+} 
+
+@media all and (max-width: 991px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+ 
+nav .main_pages a {
+            width: 50%;
+        }
+
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+#toggle:checked + .main_pages {
+            display: flex;
+        }
+ 
