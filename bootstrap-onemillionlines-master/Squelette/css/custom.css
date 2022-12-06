@@ -7,21 +7,14 @@
 
 @media (max-width: 1199px) {
     
-    body{
-        background-color: red
-    }
 }
 
 @media (max-width: 991px) {
-    body{
-        background-color: blue;
-    }
+    
 }
 
 @media (max-width: 767px) {
-    body{
-        background-color: green;
-    }
+    
 }
 
 #home {
@@ -76,79 +69,79 @@ body{
     
  nav 
 {
-    margin: 100px auto;
-    width: 50%;
-    height: 100px;
-    background: #48435C;
+    width: 100%;
+    height: 100%;
+    background: #48435C;
 }
- 
+
 nav .main_pages 
 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
- 
+
 nav .main_pages a 
 {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: white;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
 }
- 
+
 nav a:hover 
 {
-    background: #5A5766
+    background: #5A5766
 }
 
 label
 {
-    display: none;
+    display: none;
 }
 
 label, #toggle
 {
-    display: none;
-} 
+    display: none;
+}
 
 @media all and (max-width: 991px)
 {
-    nav
-    {
-        height: 60px;
-    }
- 
-    nav .main_pages 
-    {
-        display: none;
-flex-direction: column;
-        background: #48435C;
-        height: 220px;
-    }
- 
-nav .main_pages a {
-            width: 50%;
-        }
 
-    label 
-    {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
+    nav
+{
+    height: ;
+    }
+
+    nav .main_pages 
+    {
+    display: none;
+    flex-direction: column;
+    background: #48435C;
+    height: 220px;
+    }
+
+nav .main_pages a {
+    width: 50%;
+    }
+
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
 }
 
 #toggle:checked + .main_pages {
-            display: flex;
-        }
+        display: flex;
+        }
  
